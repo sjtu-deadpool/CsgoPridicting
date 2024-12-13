@@ -5,10 +5,10 @@ from datetime import datetime
 
 # Reddit API credentials  
 reddit = praw.Reddit(  
-    client_id="YOUR_CLIENT_ID",  
-    client_secret="YOUR_CLIENT_SECRET",  
-    user_agent="CSGO Data Crawler",  
-)  
+    client_id="pJ4fBX-S5S7rM13M2ZvavQ",                    # 替换为你的 Client ID  
+    client_secret="sPwEBHdPx_jcgXLhKg_uHWcAkrTMRQ",         # 替换为你的 Client Secret  
+    user_agent="csgo predict"  
+)
 
 def fetch_from_subreddit(subreddit_name="GlobalOffensive", limit=100):  
     """  
