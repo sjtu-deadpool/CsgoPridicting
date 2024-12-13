@@ -1,1 +1,1 @@
-hello
+It's a CS:GO price prediction project.
